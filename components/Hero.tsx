@@ -37,11 +37,11 @@ const Hero = () => {
           <div className='flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-40'>
             <div className='text-center'>
                 <h1 className='font-bold space-x-2 flex-wrap justify-center relative text-3xl lg:text-6xl w-full'>
-                  Software Engineer that excels in <br />
+                  Software Developer that excels in <br />
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-violet-600'>{typeEffect}</span>
                 </h1>
               <p className='text-center text-sm lg:text-lg py-5'>
-                Hi, I&apos;m Rishikesh Solapure, a Software Engineer passionate about developing scalable, maintainable large-scale applications.
+                Hi!, I&apos;m Omkar Yeole, a Software Developer focused on building robust, scalable applications designed to enhance user experience and maximize engagement.
               </p>
               <a href='#projects' className='mt-10'>
                 <MagicButton 
@@ -53,7 +53,7 @@ const Hero = () => {
             <div className='mt-10 md:mt-0'>
             <BackgroundGradient >
               <Image 
-                src={"/photo.jpeg"}
+                src={"/Img-omkar.jpeg"}
                 alt='logo'
                 width={500}
                 height={500}

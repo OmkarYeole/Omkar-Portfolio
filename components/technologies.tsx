@@ -1,6 +1,5 @@
 import { technicalSkills } from '@/data'
 import React from 'react'
-import { LampContainer } from './ui/lamp'
 
 export const Technologies = () => {
   return (

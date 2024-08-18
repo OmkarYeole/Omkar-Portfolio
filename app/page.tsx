@@ -7,6 +7,7 @@ import { navItems } from "@/data";
 import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
 import { Technologies } from "@/components/technologies";
+// import Patent from "@/components/patent";
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Hero />
           <Experience />
           <Technologies />
+          {/* <Patent /> */}
           <RecentProjects />
           <Footer />
         </div>

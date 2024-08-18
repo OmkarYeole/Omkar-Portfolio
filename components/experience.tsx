@@ -19,7 +19,7 @@ export const Experience = () => {
               key={`${card.companyName}-${ind}`}
               borderRadius='1.75rem'
               duration={Math.floor(Math.random() * 1000) + 5000}
-              className='flex-1 text-white border-neutral-200 dark:border-slate-800 p-2'
+              className='flex-1 text-white border-neutral-200 dark:border-slate-800 p-2 w-full'
               style={{
                 //   add these two
                 //   you can generate the color from here https://cssgradient.io/
@@ -31,7 +31,7 @@ export const Experience = () => {
               }}
             >
                 <div className='space-y-4'>
-                  <div className='flex items-center gap-32'>
+                  <div className='flex items-center gap-20'>
                   <Image 
                     src={card.thumbnail}
                     alt={card.thumbnail}
@@ -39,9 +39,9 @@ export const Experience = () => {
                     width={200}
                     height={200}
                     />
-                    <div>
+                    <div className='w-full'>
 
-                    <h1 className='text-2xl lg:text-4xl font-bold flex-grow'>
+                    <h1 className='text-2xl lg:text-3xl font-bold flex-grow flex justify-center items-center w-full'>
                       { card.companyName}
                     </h1>
                     <p className='text-lg'>
