@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Technologies = () => {
   return (
-    <div className='py-20 flex flex-col justify-center items-center'>
+    <div className='py-20 flex flex-col justify-center items-center z-10'>
         <div className='text-4xl lg:text-6xl font-bold text-purple-500'>
             Technologies
         </div>

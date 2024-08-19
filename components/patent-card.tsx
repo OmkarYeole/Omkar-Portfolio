@@ -6,7 +6,7 @@ import { Vortex } from './ui/vortex'
 
 const Patent = () => {
     return (
-        <div id='experience' className='w-full py-20  flex flex-col justify-center'>
+        <div id='experience' className='w-full py-20 flex flex-col justify-center'>
             <div className='text-center text-4xl font-bold lg:text-6xl -mb-20 z-10'> 
                 {/* My{" "} */}
                 <span className='text-purple-500'>
