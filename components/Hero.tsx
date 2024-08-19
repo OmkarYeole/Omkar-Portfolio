@@ -25,9 +25,9 @@ const Hero = () => {
         className="top-20 left-1/2 md:left-1/2 md:-top-10 h-[80vh] w-[50vw]"
         fill="purple"
       />
-      <div className="h-screen w-full dark:bg-black-100  dark:bg-grid-small-white/[0.03] bg-grid-small-black/[0.02] flex items-center justify-center absolute top-0 left-0">
+      <div className="h-screen w-full dark:bg-black  dark:bg-grid-small-white/[0.03] bg-grid-small-black/[0.02] flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       </div>
       <div id='about' className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw]  flex flex-col items-center justify-center'>
