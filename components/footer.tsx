@@ -3,8 +3,10 @@
 import React from 'react';
 import { MagicButton } from './ui/magic-button';
 import { FaLocationArrow } from 'react-icons/fa';
+import { motion } from "framer-motion";
 import { socialMedia } from '@/data';
 import Link from 'next/link';
+import { LampContainer } from './ui/lamp';
 
 export const Footer = () => {
   return (
@@ -15,41 +17,41 @@ export const Footer = () => {
           alt="grid"
           className="w-full h-full opacity-50 "
         />
-      </div>
-
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-4xl lg:text-6xl py-10 text-purple-500 font-bold">
-          Let's Connect
-        </h1>
-        <a href="mailto:omkaryeole@gmail.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
-      </div>
-      <div className="flex mt-10 space-y-8 flex-col justify-between items-center">
-        
-        <div className=" w-full flex items-center justify-center gap-8">
-          {socialMedia.map((info) => (
-            <div
-              key={info.link}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg"
-            >
-              <Link  href={info.link}>
-                {info.icon}
-              </Link>
-            </div>
-          ))}
         </div>
-
-        <div>
-            <p className="md:text-base text-sm md:font-normal font-light mt-10">
-            MADE WITH 💜 BY OMKAR YEOLE
-            </p> 
+    
+        <div className="flex flex-col items-center">
+          <h1 className="heading lg:max-w-[45vw] text-4xl lg:text-6xl py-10 text-purple-500 font-bold">
+            Let's Connect
+          </h1>
+          <a href="mailto:omkaryeole@gmail.com">
+            <MagicButton
+              title="Let's get in touch"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
-      </div>
+        <div className="flex mt-10 space-y-8 flex-col justify-between items-center">
+          
+          <div className=" w-full flex items-center justify-center gap-8">
+            {socialMedia.map((info) => (
+              <div
+                key={info.link}
+                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg"
+              >
+                <Link  href={info.link}>
+                  {info.icon}
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          <div>
+              <p className="md:text-base text-sm md:font-normal font-light mt-10">
+              MADE WITH 💜 BY OMKAR YEOLE
+              </p> 
+          </div>
+        </div>
     </div>
   )
 }

@@ -7,12 +7,12 @@ import { navItems } from "@/data";
 import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
 import { Technologies } from "@/components/technologies";
-// import Patent from "@/components/patent";
+import Patent from "@/components/patent-card";
 
 export default function Home() {
     return (
       <>
-      <main className="bg-black-100 text-white flex flex-col justify-center items-center overflow-hidden mx-auto sm:px-10 px-5">
+      <main className="bg-black text-white flex flex-col justify-center items-center overflow-hidden mx-auto sm:px-10 px-5">
          
         <div className="max-w-7xl w-full">
           <FloatingNav 
@@ -21,7 +21,7 @@ export default function Home() {
           <Hero />
           <Experience />
           <Technologies />
-          {/* <Patent /> */}
+          <Patent />
           <RecentProjects />
           <Footer />
         </div>

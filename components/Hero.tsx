@@ -57,7 +57,7 @@ const Hero = () => {
                 alt='logo'
                 width={500}
                 height={500}
-                className='rounded-3xl'
+                className='rounded-3xl object-none object-[60%_-20px]'
               />
               </BackgroundGradient>
             </div>

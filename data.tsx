@@ -153,6 +153,15 @@ export const workExperience = [
     },
 ]
 
+export const patentPublished = [
+    {
+        companyName: "Australian Innovation Patents",
+        designation: "Machine Learning based incorrect posture detection system",
+        thumbnail: "/exp1.svg",
+        description: "Developed an innovative machine learning system in Python and integrated it with a web application to detect and prevent Upper Cross Postural Syndrome by analyzing and classifying user posture based on key body points, reducing the risk of spinal problems.",
+    },
+]
+
 export const socialMedia = [
     {
         icon: <LinkedlnIcon  width="50" height="50"/>,
