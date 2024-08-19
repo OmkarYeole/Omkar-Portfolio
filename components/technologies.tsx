@@ -8,8 +8,8 @@ export const Technologies = () => {
             Technologies
         </div>
         
-        <div className='w-full pt-10 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px), transparent_100%)] rounded-lg'>
-            <ul className='flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll'>
+        <div className='w-full pt-10 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px), transparent_100%)] rounded-lg z-10'>
+            <ul className='flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll z-10'>
                 {
                     technicalSkills.map((tech, ind) => (
                         <li key={`technical-skills-${ind}}`}>
