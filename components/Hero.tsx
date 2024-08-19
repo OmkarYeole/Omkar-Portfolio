@@ -53,7 +53,7 @@ const Hero = () => {
             <div className='mt-10 md:mt-0'>
             <BackgroundGradient >
               <Image 
-                src={"/Img-omkar.jpeg"}
+                src={"/Img-Omkar.jpeg"}
                 alt='logo'
                 width={500}
                 height={500}
