@@ -14,6 +14,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
+    { name: "Patent", link: "#patent" },
 ];
 
 export const technicalSkills = [
