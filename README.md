@@ -2,7 +2,7 @@ Omkar Yeole's Portfolio
 Welcome to my personal portfolio repository! This site is designed to showcase my professional experiences, projects, skills, and the tools and technologies I specialize in.
 
 Link to the portfolio
-https://omkar-yeole-portfolio.vercel.app/
+[https://omkar-yeole-portfolio.vercel.app/](https://omkar-portfolio-nu.vercel.app/)
 
 Overview
 This portfolio includes:
