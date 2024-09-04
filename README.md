@@ -1,29 +1,33 @@
-Omkar Yeole's Portfolio
+## Omkar Yeole's Portfolio
 Welcome to my personal portfolio repository! This site is designed to showcase my professional experiences, projects, skills, and the tools and technologies I specialize in.
 
-Link to the portfolio
+## Link to the portfolio
 [https://omkar-yeole-portfolio.vercel.app/](https://omkar-portfolio-nu.vercel.app/)
 
-Overview
+## Overview
 This portfolio includes:
 
-Professional Experience: Detailed descriptions of my roles and responsibilities in various organizations.
+### Professional Experience 
+Detailed descriptions of my roles and responsibilities in various organizations.
 
-Projects: Highlights of key projects, including descriptions, technologies used, and links to live demos or source code.
+### Projects 
+Highlights of key projects, including descriptions, technologies used, and links to live demos or source code.
 
-Skills: A comprehensive list of technical skills, frameworks, and tools I am proficient in.
+### Skills 
+A comprehensive list of technical skills, frameworks, and tools I am proficient in.
 
-Certifications and Patents: Information about any certifications, courses, and patents I hold.
+### Certifications and Patents 
+Information about any certifications, courses, and patents I hold.
 
-Features
+### Features
 Responsive Design: Optimized for all devices to ensure a seamless user experience.
 
 Interactive User Interface: Built using modern web technologies to create an engaging user interface.
 
-Technologies Used
+### Technologies Used
 HTML5, CSS3, JavaScript, React, Vercel
 
-Information to setup the project:
+## Information to setup the project:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
