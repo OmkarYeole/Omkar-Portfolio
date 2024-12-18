@@ -60,10 +60,10 @@ export const projects = [
         image: "/smart_city.jpg",
         githubLink : "https://github.com/OmkarYeole/Smart-City-Realtime-Data-Handling",
         tech: [
-            <ReactIcon width="40" height="40"/>,
-            <HTMLIcon  width="40" height="40"/>,
-            <CSSIcon  width="40" height="40"/>, 
-            <JavascriptIcon  width="40" height="40"/>, 
+            // <ReactIcon width="40" height="40"/>,
+            // <HTMLIcon  width="40" height="40"/>,
+            // <CSSIcon  width="40" height="40"/>, 
+            // <JavascriptIcon  width="40" height="40"/>, 
         ]
     },
     {
@@ -72,10 +72,10 @@ export const projects = [
         image: "/e_commerce.jpg",
         githubLink : "https://github.com/OmkarYeole/Real-Time-E-Commerce-Data-Analytics-Platform",
         tech: [
-            <ReactIcon width="40" height="40"/>,
-            <HTMLIcon  width="40" height="40"/>,
-            <CSSIcon  width="40" height="40"/>, 
-            <JavascriptIcon  width="40" height="40"/>, 
+            // <ReactIcon width="40" height="40"/>,
+            // <HTMLIcon  width="40" height="40"/>,
+            // <CSSIcon  width="40" height="40"/>, 
+            // <JavascriptIcon  width="40" height="40"/>, 
         ]
     },
     {
