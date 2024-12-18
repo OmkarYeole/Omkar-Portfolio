@@ -55,6 +55,30 @@ export const technicalSkills = [
 
 export const projects = [
     {
+        title: "Smart City Real-Time Data Analytics Project",
+        description: "Developed a comprehensive Smart City Data Handling platform that processes real-time data from multiple sources including vehicles, GPS, cameras, weather, and emergency systems through a robust pipeline utilizing Apache Kafka, Spark, and AWS services. The solution enables efficient data ingestion, processing, and analytics through a multi-layered architecture, integrating with visualization tools like Power BI, Tableau, and Google Looker Studio for actionable insights.",
+        image: "/smart_city.jpg",
+        githubLink : "https://github.com/OmkarYeole/Smart-City-Realtime-Data-Handling",
+        tech: [
+            <ReactIcon width="40" height="40"/>,
+            <HTMLIcon  width="40" height="40"/>,
+            <CSSIcon  width="40" height="40"/>, 
+            <JavascriptIcon  width="40" height="40"/>, 
+        ]
+    },
+    {
+        title: "Real Time E-Commerce Data Engineering Plaform",
+        description: "Developed a Real-Time Data Platform for Pacific Retail, transforming their e-commerce operations across 15 countries by implementing a multi-layer Snowflake architecture that processes customer, product, and transaction data. The solution reduced data processing time from 24 hours to less than 1 hour while achieving 99.9% accuracy in cross-channel sales reporting and enabling 5x scalability without performance degradation.",
+        image: "/e_commerce.jpg",
+        githubLink : "https://github.com/OmkarYeole/Real-Time-E-Commerce-Data-Analytics-Platform",
+        tech: [
+            <ReactIcon width="40" height="40"/>,
+            <HTMLIcon  width="40" height="40"/>,
+            <CSSIcon  width="40" height="40"/>, 
+            <JavascriptIcon  width="40" height="40"/>, 
+        ]
+    },
+    {
         title: "Modern Bank App using React",
         description: "This app features a modern user interface for banking, built with React, Tailwind CSS, and JavaScript. It highlights how contemporary design can enhance both usability and aesthetics. The app delivers a seamless and visually appealing user experience.",
         image: "/ModernBankApp.png",
