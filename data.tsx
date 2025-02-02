@@ -2,9 +2,9 @@ import { AWSIcon, BootstrapIcon, CSSIcon, DockerIcon, FlutterIcon, GithubIcon, G
 import { FaGithub } from "react-icons/fa6";
 
 export const MainTechnologies = [
-    "Flutter",
     "Python",
-    "JavaScript",
+    "Java",
+    "C++",
     "React",
     "AWS"
 ]
@@ -19,16 +19,16 @@ export const navItems = [
 
 export const technicalSkills = [
     <ReactIcon width="60" height="60"/>,
-    <NextJSIcon width="60" height="60"/>,
+    // <NextJSIcon width="60" height="60"/>,
     <NodeJSIcon width="60" height="60"/>,
     <PythonIcon width="60" height="60"/>,
     <TypescriptIcon width="60" height="60"/>,
     <JavascriptIcon width="60" height="60"/>,
     <DockerIcon width="60" height="60"/>,
     <AWSIcon width="60" height="60"/>,
-    // <JenkinsIcon width="60" height="60"/>,
-    // <GoIcon width="60" height="60"/>,
-    <RedisIcon width="60" height="60"/>,
+    <JenkinsIcon width="60" height="60"/>,
+    <GoIcon width="60" height="60"/>,
+    // <RedisIcon width="60" height="60"/>,
     <TerraformIcon width="60" height="60"/>,
     <TailwindCSSIcon width="60" height="60"/>,
     <HTMLIcon width="60" height="60"/>,
@@ -39,11 +39,11 @@ export const technicalSkills = [
     <MySQLIcon width="60" height="60"/>,
     <GithubIcon width="50" height="50"/>,
     // <FaGithub className='w-10 h-10' />,
-    <BootstrapIcon width="60" height="60"/>,
+    // <BootstrapIcon width="60" height="60"/>,
     // <GrfanaIcon width="60" height="60"/>,
     // <PrometheusIcon width="60" height="60"/>,
-    // <OpenAIIcon width="60" height="60"/>,
-    <SlackIcon width="60" height="60"/>,
+    <OpenAIIcon width="60" height="60"/>,
+    // <SlackIcon width="60" height="60"/>,
     <GoogleCloudIcon width="60" height="60"/>,
     <FlutterIcon width='60' height='60'/>,
     <ExpressJSIcon width='70' height='70'/>,
@@ -55,8 +55,8 @@ export const technicalSkills = [
 
 export const projects = [
     {
-        title: "Smart City Real-Time Data Analytics Project",
-        description: "Developed a comprehensive Smart City Data Handling platform that processes real-time data from multiple sources including vehicles, GPS, cameras, weather, and emergency systems through a robust pipeline utilizing Apache Kafka, Spark, and AWS services. The solution enables efficient data ingestion, processing, and analytics through a multi-layered architecture, integrating with visualization tools like Power BI, Tableau, and Google Looker Studio for actionable insights.",
+        title: "Smart City Real-Time Data Analytics",
+        description: "A scalable real-time data pipeline to monitor and analyze smart city infrastructure, handling vehicle movements, GPS tracking, traffic camera feeds, and weather data.",
         image: "/smart_city.jpg",
         githubLink : "https://github.com/OmkarYeole/Smart-City-Realtime-Data-Handling",
         tech: [
@@ -68,9 +68,21 @@ export const projects = [
     },
     {
         title: "Real Time E-Commerce Data Engineering Plaform",
-        description: "Developed a Real-Time Data Platform for Pacific Retail, transforming their e-commerce operations across 15 countries by implementing a multi-layer Snowflake architecture that processes customer, product, and transaction data. The solution reduced data processing time from 24 hours to less than 1 hour while achieving 99.9% accuracy in cross-channel sales reporting and enabling 5x scalability without performance degradation.",
+        description: "A real-time data engineering platform that reduced data processing time by 95% (from 24 hours to <1 hour) for a major e-commerce platform, enabling real-time decision-making.",
         image: "/e_commerce.jpg",
         githubLink : "https://github.com/OmkarYeole/Real-Time-E-Commerce-Data-Analytics-Platform",
+        tech: [
+            // <ReactIcon width="40" height="40"/>,
+            // <HTMLIcon  width="40" height="40"/>,
+            // <CSSIcon  width="40" height="40"/>, 
+            // <JavascriptIcon  width="40" height="40"/>, 
+        ]
+    },
+    {
+        title: "Artify AI ChatBot",
+        description: "Artify AI is an interactive application that blends AI with a versatile user experience. It allows users to engage via text, image, and audio inputs, offering features like intelligent Q&A, image recognition, and speech-to-text capabilities.",
+        image: "/smart_city.jpg",
+        githubLink : "https://github.com/OmkarYeole/ArtifyAI",
         tech: [
             // <ReactIcon width="40" height="40"/>,
             // <HTMLIcon  width="40" height="40"/>,
@@ -154,7 +166,7 @@ export const projects = [
 export const workExperience = [
     {
         companyName: "ASANTe",
-        designation: "Software Developer Intern",
+        designation: "Software Engineer Intern",
         thumbnail: "/exp1.svg",
         description: "Developed cross-platform application using Flutter and Dart to improve overall user experience. Engineered the setup of authentication services for the app using Amazon Web Services (AWS) enhancing user interaction. Managed REST APIs to optimize client-server communication enhancing performance among application components. Effectively managed the project tasks and workflows using JIRA, ensuring efficient project progress monitoring.",
     },
@@ -162,19 +174,19 @@ export const workExperience = [
         companyName: "Accenture",
         thumbnail: "/exp2.svg",
         description: "Utilized Selenium in Java to test FTTP products, ensuring consistent delivery of exceptional telecom services to customers. Proficiently implemented Agile and Scrum methodologies to drive robust solutions, surpassing expectations and producing 10% reduction in production issues.",
-        designation: "Software Developer",
+        designation: "Software Engineer",
     },
     {
         companyName: "Sattvarise Technologies",
         thumbnail: "/exp3.svg",
         description: "Achieved a 25% increase in overall project efficiency by redesigning and debugging a Software Development Kit (SDK) using C++ to scope its potential for industry use. Conducted unit and target testing throughout the development process to ensure the robustness and reliability of the SDK.",
-        designation: "Software Developer Intern",
+        designation: "Software Engineer Intern",
     },
     {
         companyName: "Crest Test Systems",
         thumbnail: "/exp4.svg",
         description: "Leveraged Python to prototype automation systems of office processes, resulting in an 8% increase in operational efficiency by collaborating with a cross-functional team.",
-        designation: "Software Developer Intern",
+        designation: "Software Engineer Intern",
     },
 ]
 
