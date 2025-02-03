@@ -41,7 +41,7 @@ const Hero = () => {
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-violet-600'>{typeEffect}</span>
                 </h1>
               <p className='text-center text-sm lg:text-lg py-5'>
-                Hi!, I&apos;m Omkar Yeole, a Software Developer focused on building robust, scalable applications designed to enhance user experience and maximize engagement.
+                Hi!, I&apos;m Omkar Yeole, a Software Engineer with 2+ years of experience in Python, Java, C++, Node.js, React, AWS, and Docker, I build scalable, high-performance applications, and I'm passionate about innovation, automation, and AI-driven development.
               </p>
               <a href='#projects' className='mt-10'>
                 <MagicButton 
@@ -55,8 +55,8 @@ const Hero = () => {
               <Image 
                 src={"/Img-Omkar-New-Copy.jpeg"}
                 alt='logo'
-                width={500}
-                height={500}
+                width={700}
+                height={800}
                 className='rounded-3xl object-none object-[60%_-20px]'
               />
               </BackgroundGradient>

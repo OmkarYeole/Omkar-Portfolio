@@ -165,28 +165,34 @@ export const projects = [
 
 export const workExperience = [
     {
+        companyName: "Model.Earth",
+        designation: "Software Engineer",
+        thumbnail: "/exp2.svg",
+        description: "Developing a data-driven web application to visualize and manage environmental projects. Optimizing data workflows, integrating AI models, and enhancing system efficiency using Node.js, React, Python, and Apache Airflow. Built APIs with SQL/NoSQL databases, improving data retrieval speeds by 20% and enabling Retrieval Augmented Generation (RAG) workflows with OpenAI models."
+    },
+    {
         companyName: "ASANTe",
         designation: "Software Engineer Intern",
         thumbnail: "/exp1.svg",
-        description: "Developed cross-platform application using Flutter and Dart to improve overall user experience. Engineered the setup of authentication services for the app using Amazon Web Services (AWS) enhancing user interaction. Managed REST APIs to optimize client-server communication enhancing performance among application components. Effectively managed the project tasks and workflows using JIRA, ensuring efficient project progress monitoring.",
+        description: "Led the development of a cross-platform web app using Flutter, Dart, and AWS Cognito, securing a $100K investment. Built backend services with Python & Flask, optimizing API performance and authentication workflows. Enhanced security and streamlined user management with AWS integrations."
     },
     {
         companyName: "Accenture",
-        thumbnail: "/exp2.svg",
-        description: "Utilized Selenium in Java to test FTTP products, ensuring consistent delivery of exceptional telecom services to customers. Proficiently implemented Agile and Scrum methodologies to drive robust solutions, surpassing expectations and producing 10% reduction in production issues.",
         designation: "Software Engineer",
+        thumbnail: "/exp2.svg",
+        description: "Improved production reliability for 2M+ users by optimizing Java Spring Boot microservices and integrating Apache Kafka for efficient event-driven messaging. Reduced production issues by 20%, enhanced deployment pipelines using Maven & Gradle, and conducted robust end-to-end testing with Playwright & JMeter."
     },
     {
         companyName: "Sattvarise Technologies",
-        thumbnail: "/exp3.svg",
-        description: "Achieved a 25% increase in overall project efficiency by redesigning and debugging a Software Development Kit (SDK) using C++ to scope its potential for industry use. Conducted unit and target testing throughout the development process to ensure the robustness and reliability of the SDK.",
         designation: "Software Engineer Intern",
+        thumbnail: "/exp3.svg",
+        description: "Optimized C++ STL algorithms for mesh manipulation, improving a geometric modeling engine’s processing speed. Enhanced Qt-based UI for real-time PCB schematic visualization, increasing user efficiency by 20%. Collaborated with cross-functional teams to align EDA software architecture with industry standards."
     },
     {
         companyName: "Crest Test Systems",
-        thumbnail: "/exp4.svg",
-        description: "Leveraged Python to prototype automation systems of office processes, resulting in an 8% increase in operational efficiency by collaborating with a cross-functional team.",
         designation: "Software Engineer Intern",
+        thumbnail: "/exp4.svg",
+        description: "Developed a Python backend with Flask to control IoT devices via a web app, enabling seamless automation of office systems like lighting and climate control."
     },
 ]
 
