@@ -132,7 +132,7 @@ export const projects = [
     {
         title: "Car Dealership Simulation",
         description: "A Java-based simulation that replicates the operations of a car dealership. Users can buy, sell, repair, clean, and race cars within the simulation. It leverages Object-Oriented Programming principles and common software design patterns.",
-        image: "/car_dealership.jpg",
+        image: "/dealership.jpg",
         githubLink : "https://github.com/OmkarYeole/Friendly-Neighbourhood-Car-Dealership-using-OOP",
         tech: [
             <JavaIcon width="40" height="40"/>,
