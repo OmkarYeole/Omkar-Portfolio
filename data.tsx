@@ -13,7 +13,7 @@ export const MainTechnologies = [
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Experience", link: "#experience" },
-    { name: "Technologies", link: "#technologies" },
+    { name: "Skills", link: "#technologies" },
     { name: "Patent", link: "#patent" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
