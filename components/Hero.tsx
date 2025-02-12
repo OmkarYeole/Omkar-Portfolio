@@ -37,11 +37,11 @@ const Hero = () => {
           <div className='flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-40'>
             <div className='text-center'>
                 <h1 className='font-bold space-x-2 flex-wrap justify-center relative text-3xl lg:text-6xl w-full'>
-                  Software Developer that excels in <br />
+                  Software Engineer that excels in <br />
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-violet-600'>{typeEffect}</span>
                 </h1>
               <p className='text-center text-sm lg:text-lg py-5'>
-                Hi!, I&apos;m Omkar Yeole, a Software Engineer with 2+ years of experience in Python, Java, C++, Node.js, React, AWS, and Docker, I build scalable, high-performance applications, and I'm passionate about innovation, automation, and AI-driven development.
+                Hello!, I&apos;m Omkar Yeole, a Software Engineer with 2+ years of experience in Python, C++, Java, React, AWS, and Docker. I build scalable, high-performance applications, and I'm passionate about innovation, automation, and AI-driven development.
               </p>
               <a href='#projects' className='mt-10'>
                 <MagicButton 
@@ -56,7 +56,7 @@ const Hero = () => {
                 src={"/Img-Omkar-New-Copy.jpeg"}
                 alt='logo'
                 width={700}
-                height={800}
+                height={400}
                 className='rounded-3xl object-none object-[60%_-20px]'
               />
               </BackgroundGradient>
