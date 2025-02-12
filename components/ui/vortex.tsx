@@ -22,7 +22,7 @@ interface VortexProps {
 export const Vortex = (props: VortexProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef(null);
-  const particleCount = props.particleCount || 700;
+  const particleCount = props.particleCount || 400;
   const particlePropCount = 9;
   const particlePropsLength = particleCount * particlePropCount;
   const rangeY = props.rangeY || 100;
@@ -33,7 +33,7 @@ export const Vortex = (props: VortexProps) => {
   const baseRadius = props.baseRadius || 1;
   const rangeRadius = props.rangeRadius || 2;
   const baseHue = props.baseHue || 250;
-  const rangeHue = 40;
+  const rangeHue = 20;
   const noiseSteps = 3;
   const xOff = 0.00125;
   const yOff = 0.00125;
