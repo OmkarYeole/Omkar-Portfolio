@@ -55,8 +55,8 @@ const Hero = () => {
               <Image 
                 src={"/Img-Omkar-New-Copy.jpeg"}
                 alt='logo'
-                width={600}
-                height={200}
+                width={700}
+                height={400}
                 className='rounded-3xl object-none object-[60%_-20px]'
               />
               </BackgroundGradient>
